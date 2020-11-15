@@ -281,7 +281,7 @@ R"({
     EXPECT_EQ(dMax_test, 7);
 }
 TEST(Check_Length, Count_Max_Length_Extra_Debt) {
-string string_test_true =\
+const char* string_test_true =\
 R"({
   "items": [
     {
